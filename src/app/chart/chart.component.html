@@ -1,0 +1,9 @@
+<div class="container">
+    <form action="" *ngIf="isDataAvailable">
+        <div class="row">
+            <canvas ngChartjs [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions"
+                [legend]="lineChartLegend" [chartType]="lineChartType" [inlinePlugins]="inlinePlugin">
+            </canvas>
+        </div>
+    </form>
+</div>
